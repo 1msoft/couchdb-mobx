@@ -1,0 +1,30 @@
+{
+  "name": "mobx-pouchdb",
+  "version": "1.0.0",
+  "description": "connect pouchdb to mobx",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "William E",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^20.0.3",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "eslint": "^3.19.0",
+    "jest": "^20.0.4",
+    "jest-cli": "^20.0.4"
+  },
+  "dependencies": {
+    "mobx": "^3.1.11",
+    "pouchdb": "^6.2.0",
+    "pouchdb-authentication": "^0.5.5",
+    "pouchdb-find": "^6.2.0"
+  }
+}
